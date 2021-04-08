@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
 			val layourInflater = LayoutInflater.from(miContexto)
 			val listRowLayout = layourInflater.inflate(R.layout.fila_lista, parent, false)
 			listRowLayout.findViewById<TextView>(R.id.aTitle).text = "Hello there # $position"
-			listRowLayout.findViewById<TextView>(R.id.subtitle).text = "General Kenobi # $position"
+			listRowLayout.findViewById<TextView>(R.id.subtitle).text = "General Kenobi  # $position"
 			val image = listRowLayout.findViewById<ImageView>(R.id.listImage)
 			Glide.with(miContexto)
 				.load("https://amigos-informaticos.github.io/GourmetRacePWA/images/logo512.png")
