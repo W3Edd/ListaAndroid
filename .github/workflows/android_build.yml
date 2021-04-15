@@ -17,8 +17,8 @@ jobs:
       - name: Build Project
         run: ./gradlew assemble
 
-      - name: Run link
-        run: ./gradlew link
+      - name: Run lint
+        run: ./gradlew lint
 
       - name: Upload report
         uses: actions/upload-artifact@v2
